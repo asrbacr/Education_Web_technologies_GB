@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;500&display=swap" rel="stylesheet">);
+   
+}
+
+.verticalImage {
+    height: 550px;
+}
+
+.horizonImage {
+    width: 800px;
+}
