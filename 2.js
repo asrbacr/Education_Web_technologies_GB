@@ -3,9 +3,9 @@
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда данное значение.
 
 function greeting () {
-    name_user = prompt("Введите ваше имя");
-    return name_user
+    const name_user = prompt("Введите ваше имя");
+    return name_user;
 } 
 
-name_user = greeting()
+name_user = greeting();
 console.log(`Приветствую ${name_user}.`);
