@@ -1,5 +1,3 @@
-<!-- https://paiza.io/projects/N98TuYueZljjLvErNrpSAg?language=php -->
-
 <?php 
 $name = "Василий";
 $prof = "Техник";
@@ -141,15 +139,8 @@ $experience = [
               <?php for ($i = 0; $i < count($experience); $i++): ?>
                 <h4 class="w3-opacity"><b><?= $experience[$i]['name_company'] ?></b></h4>
                 <h5 class="w3-opacity"><b><?= $experience[$i]['job_title'] ?></b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $experience[$i]['period_start'] ?> - <span
-                    class=
-                    <?php 
-                    if ($i == 1){
-                        "w3-tag w3-teal w3-round";}
-                        else{
-                           "w3-text-teal"; 
-                                            }
-                    ?>><?= $experience[$i]['period_end'] ?></span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $experience[$i]['period_start'] ?> - <span 
+                    class="w3-tag w3-teal w3-round"><?= $experience[$i]['period_end'] ?></span></h6>
                 <p><?= $experience[$i]['text_description'] ?></p>
                 <hr>
             <?php endfor; ?>
